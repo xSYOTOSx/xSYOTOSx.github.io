@@ -1,1 +1,72 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Mathedemo</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<h1>This is heading 1</h1>
+<p>This is my notes as i learn to work with HTML. I am follwing along with the <a href="https://www.https://www.w3schools.com/html/default.asp"> W3 website</a>. </p>
+
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<p> Headings are suposed to delineate important things. ie <code> &lth1&gt </code> is the first most important 
+thing and <code> &lth6&gt </code> is the 6th most important thing. So dont use it as as a way to change the 
+heading size. But insted use <code> &lth1 style="font-size:60px;&gt </code> which gives the result below.</p>
+<h1 style="font-size:60px;">Heading 1</h1>
+
+<h1> Elements vs Attributes </h1>
+<p>Elements are everything from the start tag to the end tag. ie <code> &lth1&gt &lt/h1&gt or &ltp&gt &lt/p&gt or &ltbr&gt</code></p>
+<p>Attributes provide additional information about HTML elements. This includes images or URL links. 
+
+<a href="https://www.w3schools.com">This is a link</a>
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+<p> its werid that the immage went above the link. also how does one link an immage?? </p>
+
+<p>This is a line <br> with a break</p>
+<img src="imgage.jpg" width="500" height="600">
+<p style="color:red;">This is a red paragraph.</p>
+
+<p title="I'm a tooltip">This is a paragraph.</p>
+<p>The "< pre >" tag preserves both spaces and line breaks:</p>
+
+<pre>
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+<h2>Math in TeX notation</h2>
+
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+$$ \begin{array}{rcll}
+y & = & x^{2}+bx+c\\
+  & = & x^{2}+2\times\dfrac{b}{2}x+c\\
+  & = & \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
+      {\left(\dfrac{b}{2}\right)^{2}+c}\\
+  &  & \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
+  & = & \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c 
+  & \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
+    y+\left(\dfrac{b}{2}\right)^{2}-c & = & \left(x+
+    \dfrac{b}{2}\right)^{2} & \left|\strut(\textrm{vertex form})\right.\\
+y-y_{S} & = & (x-x_{S})^{2}\\
+S(x_{S};y_{S}) & \,\textrm{or}\, 
+    & S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
+\end{array} $$
+
+
+
+</body>
+</html>
